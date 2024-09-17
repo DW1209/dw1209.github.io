@@ -21,6 +21,15 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'ffi'
+    gem 'zeitwerk'
+    gem 'namae'
+    gem 'nokogiri', '~> 1.16.7'
+    gem 'minitest'
+    gem 'faraday-retry'
+    gem 'uri'
+    gem 'google-protobuf'
+    gem 'crass'
 end
 group :other_plugins do
     gem 'css_parser'

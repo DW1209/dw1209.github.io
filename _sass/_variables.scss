@@ -3,6 +3,9 @@
  * To adjust anything, simply edit the variables below and rebuild the theme.
  ******************************************************************************/
 
+// Font Family
+$lucida-grande: "Lucida Grande", sans-serif;
+
 // Colors
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
@@ -31,7 +34,6 @@ $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
 // Theme colors
-
 $code-bg-color-light: rgba($purple-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 

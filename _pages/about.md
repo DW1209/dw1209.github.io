@@ -1,25 +1,25 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: he/him
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # more_info: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently pursuing a Master's degree in Computer Science at the [University of Southern California](https://www.usc.edu/), expecting to graduate in May 2026. I possess hands-on expertise in C, C++, and Python, and I have extensive experience in artificial intelligence, machine learning, and network engineering.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously, I worked as a Software Development Intern at [Advantech](https://www.advantech.com/en-us) in Summer 2022, where I collaborated with a team to develop intelligent manufacturing solutions. My main focus was updating image classification models and implementing object detection algorithms using PyTorch.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I received a Bachelor's degree in Computer Science from [National Yang Ming Chiao Tung University](https://www.nycu.edu.tw/nycu/en/index) in 2023. Under the guidance of Prof. [Yong-Sheng Cheng](https://www.cs.nycu.edu.tw/members/detail/yschen?locale=en), I worked on a project, where we designed EEG experiments and developed a model to predict finger movements. This project deepened my knowledge of neural networks and brain-computer interfaces.

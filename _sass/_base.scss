@@ -4,6 +4,15 @@
 
 // Typography
 
+body {
+  font-family: #{$lucida-grande};
+}
+
+strong,
+b {
+  font-weight: bold;
+}
+
 p,
 h1,
 h2,
@@ -383,7 +392,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3rem;
 
     a {
       i::before {

@@ -1,200 +1,161 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Wei-Cheng Wang",
+    "label": "MSCS @ USC",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "wwang759@usc.edu",
+    "phone": "(213) 326-7282",
+    "url": "https://dw1209.github.io/",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "1133 S Hope St",
+      "postalCode": "CA 90015",
+      "city": "Los Angeles",
       "countryCode": "US",
       "region": "California"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "wei-cheng-wang",
+        "url": "https://www.linkedin.com/in/wei-cheng-wang/"
+      },
+      {
+        "network": "GitHub",
+        "username": "DW1209",
+        "url": "https://www.github.com/DW1209/"
       }
     ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "institution": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "url": "https://www.usc.edu/",
+      "area": "",
+      "studyType": "Master of Science in Computer Science",
+      "startDate": "2024-08-26",
+      "endDate": "",
+      "score": "",
+      "courses": ["Information Retrieval and Web Search Engines", "Advanced Mobile Devices and Game Consoles"]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "institution": "National Yang Ming Chiao Tung University",
+      "location": "Hsinchu, Taiwan",
+      "url": "https://www.nycu.edu.tw/nycu/en/index",
+      "area": "",
+      "studyType": "Bachelor of Science in Computer Science",
+      "startDate": "2019-09-09",
+      "endDate": "2023-06-26",
+      "score": "4.0/4.3",
+      "courses": [
+        "Parallel Programming",
+        "Computer System Administration",
+        "Computer Vision for UAV Autopilot",
+        "Advanced Programming in the UNIX Environment"
+      ]
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Programming",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+      "keywords": ["C/C++", "Python", "HTML/CSS", "JavaScript"]
+    },
+    {
+      "name": "Knowledge & Skills",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["AI & Machine Learning", "Network Engineering", "Computer Security"]
+    }
+  ],
+  "work": [
+    {
+      "name": "Advantech",
+      "position": "Software Development Intern",
+      "url": "https://www.advantech.com/en-us",
+      "startDate": "2022-06-27",
+      "endDate": "2022-09-02",
+      "summary": "",
+      "highlights": [
+        "Collaborated with software developers to design products for intelligent manufacturing.",
+        "Updated an existing ResNet model for image classification and published FasterRCNN, whose backbone was MobileNetV3 and RetinaNet, for object detection via PyTorch."
       ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Wi-Fi Rate Control on Ryu and OVS",
+      "summary": "",
+      "highlights": [
+        "Collected Wi-Fi information, including MAC address, IP address, and average signal strength.",
+        "Compiled data into a packet of an OpenFlow protocol and sent it to a controller port.",
+        " Parsed information on Ryu and calculated SNR by assuming signal noise was -90 dBm.",
+        "Configured flow rules on Ryu to drop packets, adjusting a number of forwarded ports close to the SNR ratio."
+      ],
+      "startDate": "2023-02-01",
+      "endDate": "2023-06-30",
+      "url": ""
+    },
+    {
+      "name": "Ransomware Propagation and Payload",
+      "summary": "",
+      "highlights": [
+        "Acted as an attacker and cracked a victim's SSH password via dictionary attack.",
+        "Created a compression virus with ransomware worm propagation to infect \"cat\" command.",
+        "Prepared ransomware payload to encrypt picture files in JPG format and triggered a pop-up window displaying a message requesting ransom."
+      ],
+      "startDate": "2023-02-01",
+      "endDate": "2023-06-30",
+      "url": "https://github.com/DW1209/Ransomware-Propagation-and-Payload"
+    },
+    {
+      "name": "Accelerating K-means Clustering with Parallel Implementation",
+      "summary": "",
+      "highlights": [
+        "Collorated with a team to enhance K-means clustering efficacy via OpenMP, MPI, and hybrid methods",
+        "Demonstrated improvements in K-means clustering via three methods, with pure MPI implementation reaching optimal performance."
+      ],
+      "startDate": "2022-09-01",
+      "endDate": "2023-01-31",
+      "url": "https://github.com/DW1209/Accelerating-K-Means-Clustering-with-Parallel-Implementation"
+    },
+    {
+      "name": "Analysis of EEG using Deep Learning",
+      "summary": "",
+      "highlights": [
+        "Teamed up to analyze accuracy across different periods: before, during, and after index fingers lift.",
+        "Designed an experiment collaboratively via E-Prime to collect EEG signals from left and right index fingers; afterward, filtered out noise and irrelevant frequency bands via EEGLAB in MATLAB.",
+        "Coordinated with team members to train and evaluate signals with EEGNet model, achieving approximately 72% accuracy in predicting finger movements."
+      ],
+      "startDate": "2022-02-01",
+      "endDate": "2022-06-30",
+      "url": "https://github.com/DW1209/Analysis-of-EEG-using-Deep-Learning"
+    },
+    {
+      "name": "When BERT meets Google Comments",
+      "summary": "",
+      "highlights": [
+        "Worked in a team to develop BERT model predicting sentiment and categories of Google Maps comments.",
+        "Participated in web scraping tasks to gather data; divided comments into positive and negative based on star ratings and trained via BERT model.",
+        "Developed a simple UI interface collaboratively via PyQt for comment entry, achieving approximately 90% accuracy in sentiment and category prediction."
+      ],
+      "startDate": "2022-02-01",
+      "endDate": "2022-06-30",
+      "url": "https://github.com/f964966828/When-Bert-meet-Google-Comment"
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "Mandarin",
+      "fluency": "Native",
       "icon": ""
     },
     {
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }
