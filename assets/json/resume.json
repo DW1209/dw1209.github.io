@@ -114,7 +114,7 @@
       "name": "Accelerating K-means Clustering with Parallel Implementation",
       "summary": "",
       "highlights": [
-        "Collorated with a team to enhance K-means clustering efficacy via OpenMP, MPI, and hybrid methods",
+        "Collorated with a team to enhance K-means clustering efficacy via OpenMP, MPI, and hybrid methods.",
         "Demonstrated improvements in K-means clustering via three methods, with pure MPI implementation reaching optimal performance."
       ],
       "startDate": "2022-09-01",
