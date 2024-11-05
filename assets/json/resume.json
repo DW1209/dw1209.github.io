@@ -111,6 +111,28 @@
       "url": "https://github.com/DW1209/Ransomware-Propagation-and-Payload"
     },
     {
+      "name": "Simple Taiwanese COVID-19 Map Website",
+      "summary": "",
+      "highlights": [
+        "Displayed the cumulative number of confirmed cases in the city based on the mouse location.",
+        "Fetched the Taiwan National Infectious Disease Statistics System data via web scraping."
+      ],
+      "startDate": "2022-02-01",
+      "endDate": "2023-06-30",
+      "url": "https://github.com/DW1209/Taiwan-Covid-19-Map-Website"
+    },
+    {
+      "name": "Simple Responsive Travelling Website",
+      "summary": "",
+      "highlights": [
+        "Displayed differently depending on the window size of the users' device.",
+        "Contained registration and login pages for users to register an account and log in, respectively."
+      ],
+      "startDate": "2022-02-01",
+      "endDate": "2023-05-31",
+      "url": "https://github.com/DW1209/Responsive-Travelling-Website"
+    },
+    {
       "name": "Accelerating K-means Clustering with Parallel Implementation",
       "summary": "",
       "highlights": [

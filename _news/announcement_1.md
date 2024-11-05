@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduated from National Yang Chiao Tung University. 🎉
+Graduated from National Yang Ming Chiao Tung University. 🎉
