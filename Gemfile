@@ -30,6 +30,7 @@ group :jekyll_plugins do
     gem 'uri'
     gem 'google-protobuf'
     gem 'crass'
+    gem 'logger'
 end
 group :other_plugins do
     gem 'css_parser'
