@@ -36,8 +36,13 @@
       "studyType": "Master of Science in Computer Science",
       "startDate": "2024-08-26",
       "endDate": "",
-      "score": "",
-      "courses": ["Information Retrieval and Web Search Engines", "Advanced Mobile Devices and Game Consoles"]
+      "score": "4.0/4.0",
+      "courses": [
+        "Anaylsis of Algorithms",
+        "3D Graphics and Rendering",
+        "Information Retrieval and Web Search Engines",
+        "Advanced Mobile Devices and Game Consoles"
+      ]
     },
     {
       "institution": "National Yang Ming Chiao Tung University",
@@ -67,13 +72,14 @@
       "name": "Knowledge & Skills",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["AI & Machine Learning", "Network Engineering", "Computer Security"]
+      "keywords": ["AI & Machine Learning", "Deep Learning", "Network Engineering", "Computer Security"]
     }
   ],
   "work": [
     {
       "name": "Advantech",
       "position": "Software Development Intern",
+      "location": "Taipei, Taiwan",
       "url": "https://www.advantech.com/en-us",
       "startDate": "2022-06-27",
       "endDate": "2022-09-02",

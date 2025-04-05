@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently pursuing a Master's degree in Computer Science at the [University of Southern California](https://www.usc.edu/), expecting to graduate in May 2026. I possess hands-on expertise in C, C++, and Python, and I have extensive experience in artificial intelligence, machine learning, network engineering, and computer security.
+I am currently pursuing a Master's degree in Computer Science at the [University of Southern California](https://www.usc.edu/), expecting to graduate in May 2026. I possess hands-on expertise in C, C++, and Python, and I have extensive experience in artificial intelligence, machine learning, deep learning, network engineering, and computer security.
 
 Previously, I worked as a Software Development Intern at [Advantech](https://www.advantech.com/en-us) in Summer 2022, where I collaborated with a team to develop intelligent manufacturing solutions. My main focus was updating image classification models and implementing object detection algorithms using PyTorch.
 
