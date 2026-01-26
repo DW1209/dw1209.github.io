@@ -4,7 +4,7 @@
     "label": "MSCS @ USC",
     "image": "",
     "email": "wwang759@usc.edu",
-    "phone": "(213) 326-7282",
+    "phone": "+1 (213) 326-7282",
     "url": "https://dw1209.github.io/",
     "summary": "",
     "location": {
@@ -36,10 +36,12 @@
       "studyType": "Master of Science in Computer Science",
       "startDate": "2024-08-26",
       "endDate": "",
-      "score": "4.0/4.0",
+      "score": "3.78/4.0",
       "courses": [
         "Anaylsis of Algorithms",
         "3D Graphics and Rendering",
+        "Multimedia Systems Design",
+        "Autonomous Cyber-Physical Systems",
         "Information Retrieval and Web Search Engines",
         "Advanced Mobile Devices and Game Consoles"
       ]
@@ -56,8 +58,10 @@
       "courses": [
         "Parallel Programming",
         "Computer System Administration",
+        "Introduction to Database Systems",
         "Computer Vision for UAV Autopilot",
-        "Advanced Programming in the UNIX Environment"
+        "Advanced Programming in the UNIX Environment",
+        "Data Structures and Object-oriented Programming"
       ]
     }
   ],
@@ -66,13 +70,13 @@
       "name": "Programming",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["C/C++", "Python", "HTML/CSS", "JavaScript"]
+      "keywords": ["SQL", "C/C++", "Python", "HTML/CSS", "JavaScript"]
     },
     {
       "name": "Knowledge & Skills",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["AI & Machine Learning", "Deep Learning", "Network Engineering", "Computer Security"]
+      "keywords": ["Machine Learning", "Deep Learning", "Network Engineering", "Computer Vision", "Full-Stack Development"]
     }
   ],
   "work": [
@@ -85,20 +89,62 @@
       "endDate": "2022-09-02",
       "summary": "",
       "highlights": [
-        "Collaborated with software developers to design products for intelligent manufacturing.",
-        "Updated an existing ResNet model for image classification and published FasterRCNN, whose backbone was MobileNetV3 and RetinaNet, for object detection via PyTorch."
+        "Modernized a ResNet-based image classification model on Ampere GPUs in PyTorch using configurable loaders",
+        "Deployed a MobileNetV3-based Faster R-CNN object detector in PyTorch to an internal development portal",
+        "Implemented a Detectron2 RetinaNet model for solder-joint inspection by converting LabelMe annotations to COCO format, enabling deployment on Windows in production"
       ]
     }
   ],
   "projects": [
     {
+      "name": "MugArchive",
+      "summary": "",
+      "highlights": [
+        "Built a React app to track Starbucks Discovery Series ornaments on an interactive US map",
+        "Implemented state hover highlighting and rendered city and special-location markers from coordinate data",
+        "Added a collection dashboard with total count, category breakdown, and quick status visibility",
+        "Delivered grid and map views with real-time search and category filters for states, cities, and special locations",
+        "Automated GitHub Pages deployments with GitHub Actions, rebuilding only upon relevant source changes"
+      ],
+      "startDate": "2026-01-23",
+      "endDate": "",
+      "url": "https://github.com/DW1209/MugArchive"
+    },
+    {
+      "name": "ParkMarks",
+      "summary": "",
+      "highlights": [
+        "Built a React app to explore and track US national parks with an interactive map and clickable markers",
+        "Implemented a park details panel with an image, established date, visited status, visit dates, and star ratings",
+        "Developed search and status filters plus a progress dashboard for visited count and completion percentage",
+        "Added shareable deep links via URL state for direct navigation and browser history support",
+        "Shipped updates to GitHub Pages using an artifact-based GitHub Actions pipeline with concurrency control"
+      ],
+      "startDate": "2026-01-18",
+      "endDate": "",
+      "url": "https://github.com/DW1209/ParkMarks"
+    },
+    {
+      "name": "DreamMesh: Blender Plugin for AI-Driven 3D Scene Generation",
+      "summary": "",
+      "highlights": [
+        "Created a Blender plugin driven by generative AI to automate 3D scene creation from text prompts",
+        "Implemented Stable Diffusion image generation and integrated Stable Fast 3D to convert 2D images into meshes",
+        "Accelerated model inference with CUDA and optimized JSON-based scene parsing for asset placement",
+        "Collaborated on a four-person international team, using Git to build a modular pipeline covering text-to-mesh, scene assembly, rigging, animation, and 3D scene configuration workflows for simulation-like environments"
+      ],
+      "startDate": "2025-01-15",
+      "endDate": "2025-05-15",
+      "url": "https://github.com/koi953215/DreamMesh"
+    },
+    {
       "name": "Wi-Fi Rate Control on Ryu and OVS",
       "summary": "",
       "highlights": [
-        "Collected Wi-Fi information, including MAC address, IP address, and average signal strength.",
-        "Compiled data into a packet of an OpenFlow protocol and sent it to a controller port.",
-        " Parsed information on Ryu and calculated SNR by assuming signal noise was -90 dBm.",
-        "Configured flow rules on Ryu to drop packets, adjusting a number of forwarded ports close to the SNR ratio."
+        "Built a system-level Wi-Fi rate control service on Linux using Ryu and Open vSwitch over OpenFlow and TCP/IP",
+        "Automated 802.11 telemetry collection (MAC, IP, RSSI, SNR) and injected metrics into OpenFlow metadata",
+        "Parsed metrics in the Ryu controller to apply SNR-based rate and MCS selection, enforcing QoS and flow rules",
+        "Improved throughput and latency while reducing controller overhead via batched rule updates, demonstrating practical experience in distributed control systems"
       ],
       "startDate": "2023-02-01",
       "endDate": "2023-06-30",
@@ -108,42 +154,23 @@
       "name": "Ransomware Propagation and Payload",
       "summary": "",
       "highlights": [
-        "Acted as an attacker and cracked a victim's SSH password via dictionary attack.",
-        "Created a compression virus with ransomware worm propagation to infect \"cat\" command.",
-        "Prepared ransomware payload to encrypt picture files in JPG format and triggered a pop-up window displaying a message requesting ransom."
+        "Automated SSH dictionary-based login attempts via shell scripts to simulate a ransomware attack",
+        "Overrode the default \"cat\" command to enable worm-like propagation across devices",
+        "Encrypted JPEG files via a deployed payload and triggered a custom ransom pop-up message",
+        "Coordinated a two-person team using Git for version control and collaboration"
       ],
       "startDate": "2023-02-01",
       "endDate": "2023-06-30",
       "url": "https://github.com/DW1209/Ransomware-Propagation-and-Payload"
     },
     {
-      "name": "Simple Taiwanese COVID-19 Map Website",
-      "summary": "",
-      "highlights": [
-        "Displayed the cumulative number of confirmed cases in the city based on the mouse location.",
-        "Fetched the Taiwan National Infectious Disease Statistics System data via web scraping."
-      ],
-      "startDate": "2022-02-01",
-      "endDate": "2023-06-30",
-      "url": "https://github.com/DW1209/Taiwan-Covid-19-Map-Website"
-    },
-    {
-      "name": "Simple Responsive Travelling Website",
-      "summary": "",
-      "highlights": [
-        "Displayed differently depending on the window size of the users' device.",
-        "Contained registration and login pages for users to register an account and log in, respectively."
-      ],
-      "startDate": "2022-02-01",
-      "endDate": "2023-05-31",
-      "url": "https://github.com/DW1209/Responsive-Travelling-Website"
-    },
-    {
       "name": "Accelerating K-means Clustering with Parallel Implementation",
       "summary": "",
       "highlights": [
-        "Collorated with a team to enhance K-means clustering efficacy via OpenMP, MPI, and hybrid methods.",
-        "Demonstrated improvements in K-means clustering via three methods, with pure MPI implementation reaching optimal performance."
+        "Architected three parallel K-means algorithms for distributed execution using OpenMP, MPI, and a hybrid model",
+        "Wrote shell scripts to automate dataset generation, runtime logging, and parallel execution across configurations",
+        "Benchmarked large-scale datasets of 20 million points with MPI, achieving up to 7.4x speedup",
+        "Collaborated with a three-person team on a Git-based codebase to evaluate parallel efficiency and scalability while profiling performance bottlenecks across architectures"
       ],
       "startDate": "2022-09-01",
       "endDate": "2023-01-31",
@@ -153,9 +180,9 @@
       "name": "Analysis of EEG using Deep Learning",
       "summary": "",
       "highlights": [
-        "Teamed up to analyze accuracy across different periods: before, during, and after index fingers lift.",
-        "Designed an experiment collaboratively via E-Prime to collect EEG signals from left and right index fingers; afterward, filtered out noise and irrelevant frequency bands via EEGLAB in MATLAB.",
-        "Coordinated with team members to train and evaluate signals with EEGNet model, achieving approximately 72% accuracy in predicting finger movements."
+        "Coordinated with a team to design an EEG experiment using E-Prime to collect signals during index finger lifts",
+        "Preprocessed EEG data with EEGLAB, including filtering, artifact rejection, and channel segmentation",
+        "Developed and trained an EEGNet classifier in PyTorch to predict motor intent prior to finger movement, achieving approximately 72.5% accuracy through cross-validation and confusion matrix analysis"
       ],
       "startDate": "2022-02-01",
       "endDate": "2022-06-30",
@@ -165,9 +192,11 @@
       "name": "When BERT meets Google Comments",
       "summary": "",
       "highlights": [
-        "Worked in a team to develop BERT model predicting sentiment and categories of Google Maps comments.",
-        "Participated in web scraping tasks to gather data; divided comments into positive and negative based on star ratings and trained via BERT model.",
-        "Developed a simple UI interface collaboratively via PyQt for comment entry, achieving approximately 90% accuracy in sentiment and category prediction."
+        "Built a BERT-based classifier with PyTorch to predict the sentiment and topic categories of Google Maps reviews",
+        "Crafted modular scripts for web scraping with BeautifulSoup, model training, and model inference",
+        "Achieved approximately 90% accuracy on a test set labeled with Google star ratings",
+        "Integrated the model into a PyQt5 GUI for real-time, user-facing sentiment and category prediction",
+        "Worked on a three-person team and coordinated via Git"
       ],
       "startDate": "2022-02-01",
       "endDate": "2022-06-30",
