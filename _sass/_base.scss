@@ -8,6 +8,11 @@ body {
   font-family: #{$lucida-grande};
 }
 
+/* Code font */
+pre, code, kbd, samp {
+  font-family: Consolas, Menlo, Monaco, "SFMono-Regular", "Liberation Mono", "Courier New", monospace;
+}
+
 strong,
 b {
   font-weight: bold;
